@@ -31,4 +31,4 @@ Este repositório armazena o código de uma landing page moderna desenvolvida co
 
 1. Clone o repositório em sua máquina:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/WesleyGabryel/Projetostrainer.git)
+   git clone (https://github.com/WesleyGabryel/Projetostrainer.git)
