@@ -1,57 +1,238 @@
-*{
-      padding: 0;
-        margin: 0;
-        box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-color: #030013;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f051d;
     color: rgba(255, 255, 255, 0.9);
-    font-family: 'Poppins';
 }
 
-bottom{
-    font-family: 'Poppins';
+html {
+    scroll-behavior: smooth;
 }
 
-header{
+/* Header / Menu */
+header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4%;
     position: fixed;
-    ul{
-        display: flex;
-        gap: 20px;
-        list-style-type: none;
-        background-color: rgba(240, 248, 255, 0.1);
-        padding: 16px 20px;
-        border-radius: 12px;
-        -webkit-backdrop-filter: blur(20px);
-        backdrop-filter: blur(20px);
-    }
-    
+    top: 0;
+    z-index: 99;
 }
-.logotipo{
+
+.logotipo {
     width: 60px;
-    
 }
-section{
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 16px 20px;
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+header nav ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Seções Gerais */
+section {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 4%;
 }
-.section1{
-    background-image: url(./assets/secao1.png);
+
+/* Seção 1 */
+.secao1 {
+    height: 100vh;
+    background-image: url('./assets/secao1.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
     justify-content: center;
-    align-items: center;
-    h2{
-        font-size: 13vw;
-        mix-blend-mode: color-dodge;
-        color: rgba(119, 119, 119);
+    h2 {
+      font-size: 13vw;
+      font-weight: 500;
+      mix-blend-mode: color-dodge;
+      color: #888888;
+  }
+  }
+  
 
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
     }
 }
+botton:hover {
+    opacity: 1;
+}
+
+p {
+   opacity: 0.7;
+   margin-top: 10px;
+}
+a {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    transition: all .3s;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.div-botões {
+    display: flex;
+    gap: 20px;
+    margin-top: 28px;
+}
+
+/* Botões */
+button {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.botaoPrimario {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 12px 12px 12px 20px;
+    gap: 8px;
+}
+
+.botaoPrimario img {
+    width: 44px;
+}
+
+.botaoSecundario {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 12px 20px;
+}
+
+/* Seção 2 (Serviços e Trabalhos) */
+.secao2 {
+    align-items: center;
+    background-image: url('./assets/secao2.png');
+    position: relative;
+}
+
+.secao2:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #020113 20%, #02011300, #020113);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.titulo-sessao {
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.divCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.card {
+    width: 32%;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 32px 20px;
+    margin-bottom: 20px;
+}
+
+.card.branco {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 0 4px 0;
+}
+
+.card p {
+    opacity: 0.7;
+}
+
+/* Seção de Imagens / Trabalhos */
+.div-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+    width: 100%;
+    margin-top: 52px;
+}
+
+.div-imagens img {
+    width: 24.5%;
+    filter: saturate(0);
+    transition: 0.3s;
+    margin-bottom: 8px;
+    border-radius: 12px;
+}
+
+.div-imagens img:hover {
+    filter: saturate(1);
+}
+
+.titulo-sessao, .divCards{
+z-index: 2;
+}
+@media screen and (max-width: 700px) {
+    .divCards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    .div-imagens img {
+        width: 49%;
+    }
+}
+
+  
