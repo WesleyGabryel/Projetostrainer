@@ -25,10 +25,4 @@ Este repositório armazena o código de uma landing page moderna desenvolvida co
   * Criação de botões interativos e animações suaves (*hover*).
   * Adaptação de elementos para diferentes telas.
 
----
-
-## 🛠️ Como Executar
-
-1. Clone o repositório em sua máquina:
-   ```bash
-   git clone (https://github.com/WesleyGabryel/Projetostrainer.git)
+--- COM AMOR WESLEY 
