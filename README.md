@@ -25,4 +25,4 @@ Este repositório armazena o código de uma landing page moderna desenvolvida co
   * Criação de botões interativos e animações suaves (*hover*).
   * Adaptação de elementos para diferentes telas.
 
---- COM AMOR WESLEY 
+--- COM AMOR WESLEY  777
