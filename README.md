@@ -1,28 +1,30 @@
 # 🚀 Projeto de Estudo: HTML e CSS na Prática
 
-> Um projeto focado totalmente no aprendizado, treino e consolidação dos fundamentos de desenvolvimento web front-end.
+> Desenvolvido com dedicação por **Gustavo Campelo**. Um repositório focado em masterizar o desenvolvimento web moderno, estruturação limpa e design visual de alto nível.
 
 ---
 
-## 📖 Sobre o Projeto
+## 🎨 Sobre o Projeto
 
-Este repositório armazena o código de uma landing page moderna desenvolvida com o objetivo de praticar e evoluir as habilidades em **HTML5** e **CSS3**. É um material de estudo ideal para quem está começando na programação e deseja entender como estruturar páginas web limpas, responsivas e estilizadas sem o uso de frameworks.
-
----
-
-## 👨‍💻 Autor e Créditos
-
-* **Professor / Criador do Projeto:** **Gustavo Campelo** — Desenvolvedor e criador de conteúdo focado em ensinar programação e design voltado para o mercado web.
-* **Repositório de Estudos:** Desenvolvido como parte do treinamento prático de front-end.
+Este projeto foi construído do absoluto zero para explorar as principais tecnologias e tendências do design web moderno. O objetivo principal é consolidar conceitos fundamentais e avançados de **HTML5** e **CSS3**, transformando linhas de código em interfaces bonitas, fluidas e interativas.
 
 ---
 
-## ✨ O que é Treinado neste Projeto
+## ✨ Tecnologias e Recursos Utilizados
 
-* **Estruturação Semântica (HTML5):** Uso correto das tags para organizar o conteúdo da página de forma acessível.
-* **Estilização Moderna (CSS3):** * Organização de layouts com **Flexbox**.
-  * Efeitos visuais como transparência e desfoque (*Glassmorphism*).
-  * Criação de botões interativos e animações suaves (*hover*).
-  * Adaptação de elementos para diferentes telas.
+* **Estruturação Semântica (HTML5):** Organização correta e limpa das tags para garantir acessibilidade e SEO eficiente.
+* **Estilização Moderna (CSS3):** * Organização de layouts modernos com **Flexbox**.
+  * **Efeitos Visuais Avançados:** Transparência, desfoque e profundidade (*Glassmorphism*).
+  * **Interatividade:** Criação de botões dinâmicos, transições fluidas e animações suaves (`hover` e transformações).
+  * **Responsividade:** Adaptação inteligente de elementos para diferentes tamanhos de tela.
 
---- COM AMOR WESLEY
+---
+
+## 📂 Estrutura de Arquivos
+
+```text
+html+css/
+│
+├── index.html       # Arquivo principal da estrutura da página
+├── style.css        # Folha de estilos customizada e moderna
+└── README.md        # Documentação detalhada do projeto
